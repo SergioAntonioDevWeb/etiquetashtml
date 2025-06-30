@@ -4,6 +4,27 @@
     <title>Mi primera Web</title>
 </head>
 <body>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es una lista ordenada -->
+    <ol>
+        <li value="20">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
     <form action="/formulario" method="get">
         <label for="nombre">Nombre</label>
         <input id="nombre" name="nombre" placeholder="Nombre" type="text">
